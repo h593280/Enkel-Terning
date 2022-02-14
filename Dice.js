@@ -1,0 +1,23 @@
+"use strict"
+
+
+class Dice {
+    
+    constructor(value) {
+        this.value = value;
+        }
+    
+   
+    
+    
+    roll() {
+    
+    this.value = Math.floor(Math.random() * 6) + 1
+    
+    }
+    
+    
+    
+    }
+
+
